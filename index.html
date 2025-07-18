@@ -1,33 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Findario – Finde das Beste weltweit</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Findario Reisen – Günstige Angebote entdecken</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1e1e2f;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .search-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .search-card h2 {
+      margin-top: 0;
+    }
+    .search-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #1e1e2f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .search-card a:hover {
+      background: #33334d;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Findario</h1>
-        <nav>
-            <ul>
-                <li><a href="pages/reisen.html">Reisen</a></li>
-                <li><a href="pages/produkte.html">Topseller</a></li>
-                <li><a href="pages/restaurants.html">Restaurants</a></li>
-                <li><a href="pages/gastrobedarf.html">Gastrobedarf</a></li>
-                <li><a href="pages/freizeit.html">Freizeit</a></li>
-                <li><a href="pages/parfuem.html">Parfüms</a></li>
-                <li><a href="pages/kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Willkommen bei Findario</h2>
-        <p>Finde die besten & günstigsten Angebote weltweit – für jedes Budget.</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Findario</p>
-    </footer>
+  <header>
+    <h1>Finde die besten Reiseangebote weltweit</h1>
+    <p>Hotels, Flüge, Bahn & mehr – von Top-Plattformen verglichen</p>
+  </header>
+  <main>
+    <div class="search-card">
+      <h2>🏨 Hotels finden auf Booking.com</h2>
+      <p>Günstige Hotels in deiner Wunschstadt entdecken</p>
+      <a href="https://www.booking.com/index.de.html?aid=123456" target="_blank">Zu Booking.com</a>
+    </div>
+    <div class="search-card">
+      <h2>✈️ Flüge & Hotels bei Expedia vergleichen</h2>
+      <p>Pauschalreisen, Flüge & mehr jetzt buchen</p>
+      <a href="https://www.expedia.de?affcid=DE123" target="_blank">Zu Expedia</a>
+    </div>
+    <div class="search-card">
+      <h2>🚆 Bahn, Bus & Mietwagen bei Check24</h2>
+      <p>Alles auf einen Blick – günstig und schnell</p>
+      <a href="https://www.check24.de/reise/?affiliate=dein-code" target="_blank">Zu Check24</a>
+    </div>
+  </main>
 </body>
 </html>
